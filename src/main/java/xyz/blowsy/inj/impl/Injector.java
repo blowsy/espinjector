@@ -59,11 +59,11 @@ public class Injector {
                 }
             }
         }
-        Utils.sendMessage("&cUnable to find initilization event method.");
+        Utils.sendMessage("&cUnable to find initialization event method.");
     }
 
     private static void foundInit(ClassNode classNode, MethodNode methodNode) {
-        Utils.sendMessage("&aLocated initilization event method.");
+        Utils.sendMessage("&aLocated initialization event method.");
         // creating new class names
         String injClassName = classNode.name.replace(Utils.getClassName(classNode), CLASS_NAME);
         String cmdClassName = classNode.name.replace(Utils.getClassName(classNode), CMD_CLASS_NAME);
