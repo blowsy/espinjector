@@ -1,6 +1,6 @@
-# cheatinjector
+# esp injector
 
-concept mod
+allows the user to inject esp code into any given forge mod with a locatable initialization event.
 
 ```
 /inject open
@@ -9,4 +9,4 @@ concept mod
 /inject [file]
 ```
 
-dont holla at me if the code isn't good - i made this in like 2 hours plz dont judge mee
+concept mod, code is not refined.
